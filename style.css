@@ -8,8 +8,8 @@ body {
 left center;
 }
 
-.uptime div,
-.stats div {
+div[name=uptime],
+div[name=stats] {
  opacity: 0.6;
  filter: alpha(opacity=60); /* For IE8 and earlier */
  padding:10px;  
