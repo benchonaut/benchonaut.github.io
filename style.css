@@ -13,6 +13,14 @@ left center;
  opacity: 0.6;
  filter: alpha(opacity=60); /* For IE8 and earlier */
  padding:10px;  
+ border: 2px solid #000000;
+ -moz-border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -khtml-border-radius: 20px;
+ border-radius: 20px;
+}
+
+.stats {
  border: 3px solid #000000;
  -moz-border-radius: 20px;
  -webkit-border-radius: 20px;
