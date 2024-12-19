@@ -16,9 +16,10 @@
 <script>
 (function printMsg() {
         var oneDay = 24*60*60*1000;	// hours*minutes*seconds*milliseconds
-        var firstDate = new Date(1987,07,15);
+        var firstDate = new Date(1991,12,31);
         var secondDate = new Date();
-        var diffDays = Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)).toFixed(3);
+        //var diffDays = Math.abs((firstDate.getTime() - secondDate.getTime())/(oneDay)).toFixed(3);
+	var diffDays = Math.abs(555976800000 - secondDate.getTime())/(oneDay)).toFixed(3);
 //console.log( 'Days since ' + diffDays );
         var node = document.getElementById("uptime");
         node.innerHTML = " up since " + diffDays + " Days";
